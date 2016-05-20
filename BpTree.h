@@ -88,7 +88,6 @@ bool BpTree<E,k>::BpNode::hasMember(const E& e) {
 		if(e == node->key[i])
 			return true;
 	}
-
 	return false;
 }
 
